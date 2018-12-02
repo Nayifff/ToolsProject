@@ -6,8 +6,8 @@ Spotify’s API endpoint get_audio_features provides some really interesting inf
 Some of the questions our project aims to ask:
 What makes the music today different from the music in 60s? the How has rise of certain genres and decline of others affected the audio features of music? What makes a song popular, are there certain audio features that are common to popular songs? If yes, can we predict if a song will make it to Billboard based on its audio features? What have popular musicians been singing about? Has the content of lyrics and primary message of tracks changed since the 1960s? How has average sentiment of song changed, are songs happier now than they were?
 
-### 1. Scraping Billboard and Wikipedia to get Year End Hot 100 Singles:
-The code for scraping Billboard and Wikipedia and getting audio features and Spotify can be found here.
+### 1. Scraping Billboard and Wikipedia to get Year End Hot 100 Singles and Getting Audio Features from Spotify:
+The code for scraping Billboard and Wikipedia and getting audio features from Spotify can be found here.
 https://github.com/Nayifff/ToolsProject/blob/master/BillboardHot100_WebScraping_InitialAnalysis_FINAL.ipynb
 
 ##### NOTE: This code takes several hours to run. Please start running this file from where the data is read into the notebook. We have saved the data extracted after scraping to 
