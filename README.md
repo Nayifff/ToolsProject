@@ -25,6 +25,14 @@ The file used for LDA is: https://github.com/Nayifff/ToolsProject/blob/master/bi
 Sentiment Analysis was conducted to understand the fluctuation in sentiments in tracks over the years. The code for this can be found here:
 https://github.com/Nayifff/ToolsProject/blob/master/Lyrics%20Sentiment%20Analysis%20FINAL.ipynb
   
+###  4. Scraping random songs from Spotify to work on prediction models
+The code generates random songs from 2000 to 2017,which has to be used in the prediction models. here: https://github.com/Nayifff/ToolsProject/blob/master/Generating-Random-Songs%20(2).ipynb
+NOTE: This code takes several hours to run since it is generating around 10000 songs.  Please refer to the following csv file for the result of scraping
+https://github.com/Nayifff/ToolsProject/blob/master/Finalrandomsongspls.csv
+
+### 5. Data Cleaning and pre-processing 
+The notebook analyses the hot 100 songs and random songs, making the dataset ready for us to use in prediction models here: https://github.com/Nayifff/ToolsProject/blob/master/Hot%20_100_songs_analysis%2Bmodel_preparation.ipynb
+
 ##### NOTE: Please run this code from the beginning
 
 
