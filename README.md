@@ -24,10 +24,12 @@ The file used for LDA is: https://github.com/Nayifff/ToolsProject/blob/master/bi
 ###	3. Sentiment Analysis on Lyrics Using Gensim:
 Sentiment Analysis was conducted to understand the fluctuation in sentiments in tracks over the years. The code for this can be found here:
 https://github.com/Nayifff/ToolsProject/blob/master/Lyrics%20Sentiment%20Analysis%20FINAL.ipynb
-  
+##### NOTE: Please run this code from the beginning
+
 ###  4. Scraping random songs from Spotify to work on prediction models
 The code generates random songs from 2000 to 2017,which has to be used in the prediction models. here: https://github.com/Nayifff/ToolsProject/blob/master/Generating-Random-Songs%20(2).ipynb
-NOTE: This code takes several hours to run since it is generating around 10000 songs.  Please refer to the following csv file for the result of scraping
+
+##### NOTE: This code takes several hours to run since it is generating around 10000 songs.  Please refer to the following csv file for the result of scraping
 https://github.com/Nayifff/ToolsProject/blob/master/Finalrandomsongspls.csv
 
 ### 5. Data Cleaning and pre-processing 
@@ -39,7 +41,7 @@ The notebook analyses the hot 100 songs and random songs, making the dataset rea
 6 classification models were used for predicting whether a song can be a part of Billboard Hot 100 or not. XGboost was finalised as it was the most accurate of the lot. A user input code for song is placed at the end for prediction.
 https://github.com/Nayifff/ToolsProject/blob/master/Final-Models-Prediction.ipynb
 
-NOTE: Please run this code from the beginning
+#### NOTE: Please run this code from the beginning
 
 
 
