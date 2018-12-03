@@ -41,13 +41,14 @@ https://github.com/Nayifff/ToolsProject/blob/master/compiled_cleaned_songs.csv
 ### 6. Building models for predicting whether song can be a part of Billboard hot 100
 6 classification models were built for predicting whether a song can be a part of Billboard Hot 100 or not.
 
-	Accuracy	F-1 Score	Model
-1	0.744667	 0.543326	Decision Tree
-2	0.830204	 0.235294	Logistic Regression
-3	0.623312	 0.035556	Nearest Neighbor Classifier
-4	0.895476	 0.536873	Random Forest Classifier
-5	0.945544	 0.638070	XGBOOST CLASSIFIER
-6	0.442688	 0.182281	SUPPORT VECTOR MACHINE
+|   Accuracy   |   F-1 Score  |   Model                        |
+|--------------|--------------|--------------------------------|
+|   0.744667   |   0.543326   |  Decision Tree                 |
+|   0.830204   |   0.235294   |  Logistic Regression           |
+|   0.623312   |   0.035556   |  Nearest Neighbor Classifier   |
+|   0.895476   |   0.536873   |  Random Forest Classifier      |
+|   0.945544   |   0.638070   |  XGBOOST CLASSIFIER            |
+|   0.442688   |   0.182281   |  SUPPORT VECTOR MACHINE        |
 
 XGboost was finalised as it was the most accurate of the lot, giving the best F-1 Score of 0.638. 
 A user input code is placed at the end to see if the song entered by user can be a part of hot 100 or not based on XGBoost model.
